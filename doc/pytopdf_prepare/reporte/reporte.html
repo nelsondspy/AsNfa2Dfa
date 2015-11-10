@@ -1,0 +1,177 @@
+</html><head>
+        <style>
+        body {font-family:"Lucida Console";margin-left:5%; color : rgb(40,40,40); }
+         table, th, td {border: 1px solid grey;  padding:3px;} 
+         </style>
+         </head><body><h1>Resultados<h1/><h1>a*|c*|d*<h1/><h2>NFA<h2/><h3>Estado de inicial:15<h3/><h3>Estados de aceptacion:16<h3/><table>
+<caption>Tabla de transiciones</caption><tr><th></th><th>a</th><th>c</th><th>Ep</th><th>d</th></tr><tr>
+	<td>15</td>
+	<td> - </td>
+	<td> - </td>
+	<td>[9, 13]</td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>9</td>
+	<td> - </td>
+	<td> - </td>
+	<td>[3, 7]</td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>13</td>
+	<td> - </td>
+	<td> - </td>
+	<td>[11, 14]</td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>3</td>
+	<td> - </td>
+	<td> - </td>
+	<td>[1, 4]</td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>7</td>
+	<td> - </td>
+	<td> - </td>
+	<td>[5, 8]</td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>1</td>
+	<td>[2]</td>
+	<td> - </td>
+	<td> - </td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>4</td>
+	<td> - </td>
+	<td> - </td>
+	<td>[10]</td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>2</td>
+	<td> - </td>
+	<td> - </td>
+	<td>[1, 4]</td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>5</td>
+	<td> - </td>
+	<td>[6]</td>
+	<td> - </td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>8</td>
+	<td> - </td>
+	<td> - </td>
+	<td>[10]</td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>6</td>
+	<td> - </td>
+	<td> - </td>
+	<td>[5, 8]</td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>10</td>
+	<td> - </td>
+	<td> - </td>
+	<td>[16]</td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>11</td>
+	<td> - </td>
+	<td> - </td>
+	<td> - </td>
+	<td>[12]</td>
+</tr>
+<tr>
+	<td>14</td>
+	<td> - </td>
+	<td> - </td>
+	<td>[16]</td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>12</td>
+	<td> - </td>
+	<td> - </td>
+	<td>[11, 14]</td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>16</td>
+	<td> - </td>
+	<td> - </td>
+	<td> - </td>
+	<td> - </td>
+</tr>
+</table>
+<hr>
+<h2>DFA<h2/><h3>Estado de inicial:st1<h3/><h3>Estados de aceptacion:['st1', 'st2', 'st3', 'st4']<h3/><p>st2=[2, 1, 4, 10, 16]</p><p>st4=[12, 11, 14, 16]</p><p>st1=[15, 9, 13, 3, 7, 11, 14, 1, 4, 5, 8, 16, 10, 10, 16, 16]</p><p>st3=[6, 5, 8, 10, 16]</p><table>
+<caption>Tabla de transiciones</caption><tr><th></th><th>a</th><th>c</th><th>d</th></tr><tr>
+	<td>st1</td>
+	<td>['st2']</td>
+	<td>['st3']</td>
+	<td>['st4']</td>
+</tr>
+<tr>
+	<td>st2</td>
+	<td>['st2']</td>
+	<td> - </td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>st3</td>
+	<td> - </td>
+	<td>['st3']</td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>st4</td>
+	<td> - </td>
+	<td> - </td>
+	<td>['st4']</td>
+</tr>
+</table>
+<hr>
+<h2>DFA Min<h2/><h3>Estado de inicial:st1<h3/><h3>Estados de aceptacion:['st4', 'st1', 'st3', 'st2']<h3/><table>
+<caption>Tabla de transiciones</caption><tr><th></th><th>a</th><th>c</th><th>d</th></tr><tr>
+	<td>st1</td>
+	<td>['st2']</td>
+	<td>['st3']</td>
+	<td>['st4']</td>
+</tr>
+<tr>
+	<td>st2</td>
+	<td>['st2']</td>
+	<td> - </td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>st3</td>
+	<td> - </td>
+	<td>['st3']</td>
+	<td> - </td>
+</tr>
+<tr>
+	<td>st4</td>
+	<td> - </td>
+	<td> - </td>
+	<td>['st4']</td>
+</tr>
+</table>
+<hr>
+
+<p>a*|c*|d*<img src="grafo.png"/> </p>
+</body></html>

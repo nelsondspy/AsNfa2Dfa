@@ -1,0 +1,6 @@
+digraph  {
+	A -> B	 [label=a];
+	A -> C	 [label=b];
+	A -> D	 [label=c];
+	C -> C	 [label=b];
+}

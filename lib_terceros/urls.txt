@@ -1,0 +1,3 @@
+http://www.graphviz.org/Download_linux_ubuntu.php
+https://pypi.python.org/pypi/pygraphviz
+http://pygraphviz.github.io/documentation.html
