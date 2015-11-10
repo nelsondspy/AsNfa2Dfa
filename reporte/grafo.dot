@@ -1,0 +1,14 @@
+digraph  {
+	node [fixedsize=true,
+		height=0.5,
+		shape=circle,
+		width=0.5
+	];
+	st2	 [color="#514e86",
+		style="setlinewidth(3)"];
+	st1 -> st2	 [label=0];
+	st3	 [color="#514e86",
+		style="setlinewidth(3)"];
+	st1 -> st3	 [label=1];
+	st2 -> st2	 [label=0];
+}
